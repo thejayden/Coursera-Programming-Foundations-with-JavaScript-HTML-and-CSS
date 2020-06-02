@@ -72,7 +72,7 @@ function doRed(img){
       pixel.setGreen(0);
     }
     else{
-      pixel.setRed(255)
+      pixel.setRed(255);
       pixel.setBlue(2*avg-255);
       pixel.setGreen(2*avg-255);
     }
@@ -127,7 +127,7 @@ function setRedFilter(pixel){
       pixel.setGreen(0);
     }
     else{
-      pixel.setRed(255)
+      pixel.setRed(255);
       pixel.setBlue(2*avg-255);
       pixel.setGreen(2*avg-255);
     }
@@ -141,7 +141,7 @@ function setOrangeFilter(pixel){
       pixel.setGreen(0.8*avg);
     }
     else{
-      pixel.setRed(255)
+      pixel.setRed(255);
       pixel.setBlue(2*avg-255);
       pixel.setGreen(1.2*avg-51);
     }
@@ -156,7 +156,7 @@ function setYellowFilter(pixel){
       
     }
     else{
-      pixel.setRed(255)
+      pixel.setRed(255);
       pixel.setGreen(255);
       pixel.setBlue(2*avg-255);
       
@@ -172,7 +172,7 @@ function setGreenFilter(pixel){
       
     }
     else{
-      pixel.setRed(2*avg-255)
+      pixel.setRed(2*avg-255);
       pixel.setGreen(255);
       pixel.setBlue(2*avg-255);
       
@@ -188,7 +188,7 @@ function setBlueFilter(pixel){
       
     }
     else{
-      pixel.setRed(2*avg-255)
+      pixel.setRed(2*avg-255);
       pixel.setGreen(2*avg-255);
       pixel.setBlue(255);
       
@@ -204,7 +204,7 @@ function setIndigoFilter(pixel){
       
     }
     else{
-      pixel.setRed(1.2*avg-51)
+      pixel.setRed(1.2*avg-51);
       pixel.setGreen(2*avg-255);
       pixel.setBlue(255);
       
@@ -220,7 +220,7 @@ function setVioletFilter(pixel){
       
     }
     else{
-      pixel.setRed(0.4*avg+153)
+      pixel.setRed(0.4*avg+153);
       pixel.setGreen(2*avg-255);
       pixel.setBlue(0.4*avg+153);
       
